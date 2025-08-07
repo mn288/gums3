@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when run with the
+# -o flag to redirect to a file.
+*.out
+
+### Go ###
+#
+# This file includes artifacts of Go build that should not be checked in. [5]
+# For files created by specific development environment (e.g. editor),
+# use alternative ways to exclude files from git. [5]
+# For example, set up .git/info/exclude or use a global .gitignore. [5]
+
+# Object files
+*.o
+*.a
+
+# Cgo files
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.c
+_cgo_export.h
+
+# Go workspace directory
+/work/
+
+# Dependency directories (if you are not using Go modules)
+/vendor/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Miscellaneous
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variables file
+.env
+bin/
