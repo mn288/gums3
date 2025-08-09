@@ -21,19 +21,19 @@ If you don't want to build from source, you can download the pre-built binaries:
 ```bash
 # Download the latest release for your platform
 # Linux (x86_64)
-wget https://github.com/mnabaa/gums3/releases/latest/download/gums3-linux_amd64
+wget https://github.com/mn288/gums3/commits/v0.1.0/gums3-linux_amd64
 chmod +x gums3-linux_amd64
 
 # macOS (Intel)
-wget https://github.com/mnabaa/gums3/releases/latest/download/gums3-darwin_amd64
+wget https://github.com/mn288/gums3/commits/v0.1.0/gums3-darwin_amd64
 chmod +x gums3-darwin_amd64
 
 # macOS (Apple Silicon)
-wget https://github.com/mnabaa/gums3/releases/latest/download/gums3-darwin_arm64
+wget https://github.com/mn288/gums3/commits/v0.1.0/gums3-darwin_arm64
 chmod +x gums3-darwin_arm64
 
 # Windows
-wget https://github.com/mnabaa/gums3/releases/latest/download/gums3-windows_amd64.exe
+wget https://github.com/mn288/gums3/commits/v0.1.0/gums3-windows_amd64.exe
 ```
 
 ### Build from Source
